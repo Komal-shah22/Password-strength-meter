@@ -110,6 +110,7 @@ if st.session_state.password_history:
         st.write(f"🔑 **{entry['password']}** → {entry['result']}")
 else:
     st.write("No password history yet.")
+    
 
 
 
